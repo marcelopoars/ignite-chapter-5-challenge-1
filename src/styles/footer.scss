@@ -1,0 +1,18 @@
+footer {
+    padding: 2rem;
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    a {
+        color: var(--yellow);
+        text-decoration: none;
+        transition: opacity .2s;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
